@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/auth_background"
+    android:padding="@dimen/padding_auth_layout"
+    tools:context=".ui.authorization.AuthorizationFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/AuthWelcomeText"
+        android:layout_marginTop="@dimen/auth_margin_welcome_text"
+        android:text="@string/welcome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/loginEditText"
+        style="@style/AuthEditTextStyle"
+        android:layout_marginTop="@dimen/auth_margin_sign_in_button"
+        android:background="@drawable/auth_edit_text"
+        android:ems="10"
+        android:hint="@string/enter_login"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:autofillHints="no" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        app:layout_constraintEnd_toEndOf="@+id/loginEditText"
+        app:layout_constraintStart_toStartOf="@+id/loginEditText"
+        app:layout_constraintTop_toBottomOf="@+id/loginEditText">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passwordEditText"
+            style="@style/AuthEditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/auth_edit_text"
+            android:ems="10"
+            android:paddingStart="@dimen/padding_password"
+            android:inputType="textPassword"
+            android:hint="@string/enter_password"
+            tools:ignore="RtlSymmetry" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/authorizationButton"
+        style="@style/AuthButtonStyle"
+        android:background="@drawable/auth_button_background"
+        android:text="@string/authorization"
+        app:layout_constraintEnd_toEndOf="@+id/layout_password"
+        app:layout_constraintStart_toStartOf="@+id/layout_password"
+        app:layout_constraintTop_toBottomOf="@+id/layout_password" />
+
+    <Button
+        android:id="@+id/authGmailButton"
+        style="@style/AuthGoogleButton"
+        android:background="@drawable/auth_google_button_background"
+        android:drawableStart="@drawable/ic_google"
+        android:paddingHorizontal="@dimen/auth_padding_in_google_button"
+        android:text="@string/authorization_Gmail"
+        app:layout_constraintEnd_toEndOf="@+id/authorizationButton"
+        app:layout_constraintStart_toStartOf="@+id/authorizationButton"
+        app:layout_constraintTop_toBottomOf="@+id/authorizationButton" />
+
+    <TextView
+        style="@style/AuthNewAccountButton"
+        android:text="@string/don_t_have_an_account_yet"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/registrationButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/registrationButton" />
+
+    <Button
+        android:id="@+id/registrationButton"
+        style="@style/AuthNewAccountButton"
+        android:background="#00FFFFFF"
+        android:text="@string/registration"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

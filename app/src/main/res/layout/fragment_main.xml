@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_screen_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_item_recipe">
+
+
+    <EditText
+        android:id="@+id/searchEditText"
+        android:imeOptions="actionSearch"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_searh_edit_text"
+        android:inputType="text"
+        android:fontFamily="@font/balsamiq_sans"
+        android:background="@drawable/add_edit_text"
+        android:hint="@string/enter_a_search_term"
+        android:padding="@dimen/padding_view_mainScreen"
+        android:importantForAutofill="no" />
+
+    <Spinner
+        android:id="@+id/spinnerCuisineType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTop_spinner"
+        android:fontFamily="@font/balsamiq_sans"
+        android:visibility="gone" />
+
+    <Spinner
+        android:id="@+id/spinnerDishType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTop_spinner"
+        android:visibility="gone" />
+
+    <Spinner
+        android:id="@+id/spinnerMealType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTop_spinner"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/filtersButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:fontFamily="@font/balsamiq_sans"
+        android:background="#00FFFFFF"
+        android:drawableEnd="@drawable/ic_filters"
+        android:text="@string/filters"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTop_screen" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTop_screen"
+        tools:listitem="@layout/item_recipe" />
+
+</LinearLayout>

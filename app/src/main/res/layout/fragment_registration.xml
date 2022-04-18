@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/reg_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".ui.authorization.AuthorizationFragment">
+
+    <androidx.cardview.widget.CardView style="@style/CardViewImage">
+
+        <ImageView
+            android:id="@+id/photo_user"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_person"
+            tools:ignore="ContentDescription" />
+
+    </androidx.cardview.widget.CardView>
+
+    <EditText
+        android:id="@+id/login_editText"
+        style="@style/RegEditTextStyle"
+        android:background="@drawable/reg_edit_text"
+        android:ems="10"
+        android:hint="@string/enter_login"
+        android:inputType="text"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/email_editText"
+        style="@style/RegEditTextStyle"
+        android:background="@drawable/reg_edit_text"
+        android:ems="10"
+        android:hint="@string/e_mail"
+        android:inputType="textEmailAddress"
+        android:importantForAutofill="no" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password_editText"
+            style="@style/RegEditTextStyle"
+            android:background="@drawable/reg_edit_text"
+            android:ems="10"
+            android:hint="@string/enter_password"
+            android:inputType="textPassword"
+            android:paddingStart="@dimen/padding_password"
+            tools:ignore="RtlSymmetry" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/repeatPassword_editText"
+            style="@style/RegEditTextStyle"
+            android:background="@drawable/reg_edit_text"
+            android:ems="10"
+            android:hint="@string/repeat_password"
+            android:inputType="textPassword"
+            android:paddingStart="@dimen/padding_password"
+            app:passwordToggleEnabled="true"
+            tools:ignore="RtlSymmetry" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/registration_button"
+        style="@style/RegButtonStyle"
+        android:background="@drawable/reg_button"
+        android:text="@string/registration" />
+
+</LinearLayout>

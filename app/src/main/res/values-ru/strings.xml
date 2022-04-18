@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Recipe Network</string>
+    <string name="enter_login">Логин</string>
+    <string name="enter_password">Пароль</string>
+    <string name="authorization">Вход</string>
+    <string name="registration">Регистрация</string>
+    <string name="authorization_Gmail">Вход через Google</string>
+    <string name="repeat_password">Повторите пароль</string>
+    <string name="enter_a_search_term">Введите слово для поиска</string>
+    <string name="main_page">Главная страница</string>
+    <string name="favorites">Избранное</string>
+    <string name="logout">Выйти</string>
+    <string name="change_language">Сменить язык</string>
+    <string name="e_mail">E-mail</string>
+    <string name="welcome">Welcome!</string>
+    <string name="recipe_network">Recipe NetWork</string>
+    <string name="advanced_search">Расширенный поиск</string>
+    <string name="sign_in_menu">Вход</string>
+    <string name="filters">Фильтры</string>
+    <string name="don_t_have_an_account_yet">У вас еще нет аккаунта?</string>
+</resources>

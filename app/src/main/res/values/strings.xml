@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Recipe Network</string>
+    <string name="enter_login">Login</string>
+    <string name="enter_password">Password</string>
+    <string name="authorization">Sign In</string>
+    <string name="authorization_Gmail">Sign In with Google</string>
+    <string name="registration">create account</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="enter_a_search_term">Enter a search term</string>
+    <string name="main_page">Main page</string>
+    <string name="favorites">Favorites</string>
+    <string name="logout">Logout</string>
+    <string name="change_language">Change language</string>
+    <string name="e_mail">E-mail</string>
+    <string name="welcome">Welcome!</string>
+    <string name="recipe_network">Recipe NetWork</string>
+    <string name="advanced_search">Advanced Search</string>
+    <string name="sign_in_menu">Sign In</string>
+    <string name="don_t_have_an_account_yet">Don\'t have an account yet?</string>
+    <string name="filters">filters</string>
+
+</resources>

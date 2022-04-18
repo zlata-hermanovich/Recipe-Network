@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_authorization">8dp</dimen>
+    <dimen name="recipeImage_size">140dp</dimen>
+    <dimen name="padding_recipeItem">10dp</dimen>
+    <dimen name="margin_recipeItem_text">24dp</dimen>
+    <dimen name="margin_imageRecipe">40dp</dimen>
+    <dimen name="margin_recipeLabel">20dp</dimen>
+    <dimen name="marginStart_recipeText">40dp</dimen>
+    <dimen name="marginTop_recipeText">28dp</dimen>
+    <dimen name="padding_view_mainScreen">8dp</dimen>
+    <dimen name="ingredientWidth">340dp</dimen>
+    <dimen name="labelWidth">180dp</dimen>
+    <dimen name="textSize_label">28sp</dimen>
+    <dimen name="textSize">16sp</dimen>
+    <dimen name="marginTop_elementRecipe">8dp</dimen>
+    <dimen name="marginTop_spinner">10dp</dimen>
+    <dimen name="width_screen_button">180dp</dimen>
+    <dimen name="height_screen_button">30dp</dimen>
+    <dimen name="marginTop_screen">10dp</dimen>
+    <dimen name="padding_password">30dp</dimen>
+    <dimen name="auth_margin_sign_in_button">30dp</dimen>
+    <dimen name="auth_margin_welcome_text">100dp</dimen>
+    <dimen name="auth_padding_in_google_button">36dp</dimen>
+    <dimen name="splash_size_logo_text">50sp</dimen>
+    <dimen name="padding_item_recipe">10dp</dimen>
+    <dimen name="width_height_favorite_button">36dp</dimen>
+    <dimen name="padding_auth_layout">36dp</dimen>
+    <dimen name="height_searh_edit_text">50dp</dimen>
+    <dimen name="margin_cuisine_type">20dp</dimen>
+
+
+</resources>

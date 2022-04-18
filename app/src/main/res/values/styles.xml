@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AuthWelcomeText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="fontFamily">"cursive"</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">60sp</item>
+    </style>
+
+    <style name="AuthEditTextStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">46dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:lines">1</item>
+        <item name="fontFamily">@font/kavivanar</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#2E2B2B</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="AuthButtonStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">"@font/balsamiq_sans"</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="AuthGoogleButton" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">"@font/balsamiq_sans"</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="AuthNewAccountButton" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">"@font/balsamiq_sans"</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="RegEditTextStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">46dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:lines">1</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="fontFamily">@font/kavivanar</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="RegButtonStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">"@font/balsamiq_sans"</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AddTextStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="MenuTitleText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:textColor">#5A5656</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="MenuTypeText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">"@font/balsamiq_sans"</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#046A77</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="CardViewImage" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">140dp</item>
+        <item name="android:layout_height">140dp</item>
+        <item name="cardCornerRadius">70dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">50dp</item>
+    </style>
+
+    <style name="RecipeText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="fontFamily">@font/kavivanar</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="RecipeIngredientsText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="fontFamily">@font/kavivanar</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="RecipeBackAndShareButton" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+
+</resources>

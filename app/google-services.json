@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "155739181539",
+    "project_id": "recipe-network-d9ed6",
+    "storage_bucket": "recipe-network-d9ed6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155739181539:android:9b63cb0111b2e1aa2810d6",
+        "android_client_info": {
+          "package_name": "com.svirido.recipenetwork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155739181539-au41fijln6b3cc85l47adra805bcik40.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.svirido.recipenetwork",
+            "certificate_hash": "83278288fa7ddc80c7031874675bd25a21925cef"
+          }
+        },
+        {
+          "client_id": "155739181539-h1ov8qbcbv8i5duiiu1hk1r4maur4mo7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4m30XGvQXegMnDEqBYnpABpmEeEbWn1E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "155739181539-h1ov8qbcbv8i5duiiu1hk1r4maur4mo7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
